@@ -27,7 +27,7 @@ jobs:
 
       - name: Build EXE with PyInstaller
         run: |
-          pyinstaller --noconfirm --onefile --windowed --name "Store Inventory Management" fm_inventory_sqlite_app_v14_batch_expiry.py
+          pyinstaller --noconfirm --onefile --windowed --name "Store Inventory Management" fm_inventory_v16.py
 
       - name: Upload EXE artifact
         uses: actions/upload-artifact@v4
